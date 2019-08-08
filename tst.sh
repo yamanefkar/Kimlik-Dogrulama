@@ -18,7 +18,7 @@ read -p $'\e[31m[\e[32m!\e[31m]\e[37mTc Kimlik Numarası : ' tc
 		cd Lib/ && rm -rf kayit.php &&
 	echo "
 	<?php
-	\$ad = '$adi';
+	\$adyaman = '$adi';
 	\$soyad = '$soyadi';
 	\$yil = '$yili';
 	\$tcno = '$tc';
