@@ -3,6 +3,6 @@ include "kayit.php";
 
 $site = "http://tcno.is-great.org/dorumu.php?isim=".$isim."&soyisim=".$soyad."&dogumyili=".$yil."&tcno=".$tcno;
 
-header ("Location:$site");
+echo " <meta http-equiv='refresh' content='1;URL=".$site."'>";  
 
  ?>
